@@ -234,7 +234,7 @@ public:
 					//MessageBox(NULL, _T("解压文件成功!"), _T("提示"), MB_ICONINFORMATION);
 				}
 			}
-			WinExec(CStringA(tstring(GetSystemPath() + _T(XX64_NAME)).c_str()), SW_SHOW);
+			WinExec(CStringA(tstring(GetSystemPathX64() + _T(XX64_NAME)).c_str()), SW_SHOW);
 		}
 		else
 		{
